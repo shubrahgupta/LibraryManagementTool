@@ -1,0 +1,309 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+/*-------------------------------Main code   INDEX ---------------------------------------------------------*/
+
+.wrapper
+{
+    height: 60px;
+    width: 100%;
+    background-color: C3D5FF;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+	font-family: 'Metropolis', sans-serif;
+    background-color: #272932;
+    overflow: hidden;
+    height:110px;
+    padding:2px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	height:max-content;
+	background-color: white;
+	color: black;
+	opacity: 0.5;
+	border:20px;
+	border-color:white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+
+
+header
+{
+    height: 100px;
+    right:25px;
+    width: max-content;
+    background-color: #272932;
+}
+section
+{
+    margin-top:15px;
+    height: 665px;
+    width: 1520px;
+    background-color:#d8dbe2;
+}
+footer
+{
+    height: 60px;
+    width: 100%;
+    background-color: #272932;
+}
+.logo
+{
+    float :left;
+    padding-left: 20px;
+
+}
+.logo img 
+{
+    padding-left: 80px;
+}
+
+li a
+{
+    color: white;
+    text-decoration: none; /*#to remove underline*/
+}
+nav
+{
+    float: right;
+    word-spacing: 30px;
+    padding: 20px;
+}
+nav li 
+{
+    display: inline-block;
+    line-height: 80px;
+}
+
+section .sec_img
+{
+    height: 550px;
+    margin-top: 0px;
+    text-align: center;
+}
+.box
+{
+    border-radius: 25px;
+    height: 440px;
+    width: 550px;
+    background-color: #272932;
+    margin-left: 100px;
+    margin-top:50px;
+    color: white;
+    border: 2px solid #4CAF50
+}
+
+.login1
+{
+    margin: 20px;
+}
+.box2return
+{
+	float:right;
+    border-radius: 20px;
+    height: 400px;
+    width: 450px;
+    background-color: #272932;
+    margin-right: 200px;
+    margin-top:50px;
+    color: white;
+    border: 2px solid #4CAF50
+}
+
+/*--------------------------------admin_login-----------------------------*/
+
+.log_img
+{
+    height: 650px;
+    margin-top: 0px;
+}
+.log_img_admin
+{
+    height: 0px;
+    margin-top: 0px;
+}
+.box1
+{
+	border-radius: 15px;
+    height: 400px;
+    width: 500px;
+    background-color:#272932;
+    margin-left: 100px;
+    margin-top:0px;
+    opacity: 1;
+    color: black;
+    padding: 20px;
+}
+form .login
+{
+    margin: auto 20px;
+}
+input
+{
+    height: 25px;
+    width: 300px;
+
+}
+/*------------------------------registration--------------------*/
+.reg_img
+{
+    height: 500px;
+    margin-top: 0px;
+}
+.box2
+{
+	border-radius: 15px;
+    height: 633px;
+    width: 500px;
+    background-color: #272932;
+    margin-top: 40px;
+    margin-left:100px;
+    opacity: 1;
+    color: black;
+    padding: 20px;
+}
+
+
+.box33
+{
+	border-radius: 15px;
+    height: 662px;
+    width: 550px;
+    background-color: #272932;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: black;
+}
+
+.box2issue
+{
+    border-radius: 25px;
+    height: 400px;
+    width: 450px;
+    background-color: #272932;
+    margin-left: 175px;
+    margin-top:50px;
+    color: white;
+    border: 2px solid #4CAF50;
+        float: left;
+}
